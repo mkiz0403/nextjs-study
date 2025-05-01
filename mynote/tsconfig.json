@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "noImplicitAny": false, // any 타입일경우 린트가 뜨지 않게
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
